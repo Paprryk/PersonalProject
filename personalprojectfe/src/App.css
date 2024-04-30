@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+/* App.css */
+
+/* Global styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Dark theme styles */
+.dark-theme {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dark-theme a {
+  color: #fff; /* Set link color to white */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Light theme styles */
+.light-theme {
+  background-color: #fff; /* Light background color */
+  color: #333; /* Dark text color */
 }
 
-.App-link {
-  color: #61dafb;
+.light-theme a {
+  color: #333; /* Set link color to dark */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Navbar styles */
+nav {
+  padding: 10px 0; /* Add padding to navbar */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullet points from list */
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px; /* Add margin between navbar items */
 }
