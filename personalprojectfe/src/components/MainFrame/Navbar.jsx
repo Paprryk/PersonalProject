@@ -3,7 +3,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import { Form } from 'react-bootstrap';
 
-const Navbar = ({ darkTheme, toggleTheme }) => {
+const Navbar = () => {
   return (
     <nav>
       <ul>
@@ -13,15 +13,6 @@ const Navbar = ({ darkTheme, toggleTheme }) => {
         <li><a href="#projects">Projects</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#references">References</a></li>
-        <li>
-          <Form.Check 
-            type="switch"
-            id="themeSwitch"
-            label={darkTheme ? 'Dark Theme' : 'Light Theme'}
-            checked={darkTheme}
-            onChange={toggleTheme}
-          />
-        </li>
       </ul>
     </nav>
   );
