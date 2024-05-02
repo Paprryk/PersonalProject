@@ -5,6 +5,7 @@ import Projects from './components/MainFrame/Projects';
 import NavigationBar from './components/MainFrame/Navbar';
 import './App.css'; 
 import MyJourney from './components/MainFrame/MyJourney';
+import Resources from './components/MainFrame/Resources';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <TechnicalSkills />
       <MyJourney/>
       <Projects />
+      <Resources/>
     </div>
   );
 }
