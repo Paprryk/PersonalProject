@@ -21,9 +21,9 @@ const NavigationBar = () => {
       <Navbar className="bg-dark rounded">
         <Nav className="justify-content-center">
           <Nav.Link
-            href="#introduction"
-            style={getLinkStyles('introduction')}
-            onClick={() => handleLinkClick('introduction')}
+            href="#intro"
+            style={getLinkStyles('intro')}
+            onClick={() => handleLinkClick('intro')}
           >
             Introduction
           </Nav.Link>
@@ -35,11 +35,11 @@ const NavigationBar = () => {
             Technical Skills
           </Nav.Link>
           <Nav.Link
-            href="#work-history"
-            style={getLinkStyles('work-history')}
-            onClick={() => handleLinkClick('work-history')}
+            href="#myjourney"
+            style={getLinkStyles('myjourney')}
+            onClick={() => handleLinkClick('myjourney')}
           >
-            Work History
+            My Journey
           </Nav.Link>
           <Nav.Link
             href="#projects"
@@ -47,20 +47,6 @@ const NavigationBar = () => {
             onClick={() => handleLinkClick('projects')}
           >
             Projects
-          </Nav.Link>
-          <Nav.Link
-            href="#education"
-            style={getLinkStyles('education')}
-            onClick={() => handleLinkClick('education')}
-          >
-            Education
-          </Nav.Link>
-          <Nav.Link
-            href="#references"
-            style={getLinkStyles('references')}
-            onClick={() => handleLinkClick('references')}
-          >
-            References
           </Nav.Link>
         </Nav>
       </Navbar>

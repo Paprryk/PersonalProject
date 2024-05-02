@@ -22,7 +22,7 @@ const Header = () => {
         toast("Email copied to clipboard", { autoClose: 2000 });
     };
     return (
-        <div className="py-5 text-white">
+        <div className="py-5 text-white" id="intro">
             <Container className="rounded p-4 bg-dark shadow-lg" style={{ maxWidth: '800px' }}>
                 <Row>
                     {/* Left side container */}

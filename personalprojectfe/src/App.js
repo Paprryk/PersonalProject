@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
 import Header from './components/MainFrame/Header';
 import TechnicalSkills from './components/MainFrame/TechnicalSkills';
-import WorkHistory from './components/MainFrame/WorkHistory';
 import Projects from './components/MainFrame/Projects';
-import Education from './components/MainFrame/Education';
-import References from './components/MainFrame/References';
 import NavigationBar from './components/MainFrame/Navbar';
 import './App.css'; 
+import MyJourney from './components/MainFrame/MyJourney';
 
 const App = () => {
   return (
@@ -14,10 +12,8 @@ const App = () => {
       <NavigationBar />
       <Header />
       <TechnicalSkills />
-      <WorkHistory />
+      <MyJourney/>
       <Projects />
-      <Education />
-      <References />
     </div>
   );
 }
